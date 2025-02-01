@@ -93,6 +93,21 @@ classifier = pipeline("sentiment-analysis",
 text = "Want to get a Blackberry but can't afford it."
 result = classifier(text)
 ```
+## Model Performance
+### Accuracy Comparison
+The following chart illustrates the accuracy of various models on Twitter sentiment classification:
+
+![Model Accuracy Chart](path/to/your/chart.png)
+
+- **DeepSeek-V3 671B**: 69.03%
+- **Fine-Tuned RoBERTa**: 68.59%
+- **GPT-4o-Mini**: 67.59%
+- **Llama 3.1 405B**: 65.59%
+
+### Summary
+- All models performed well, with DeepSeek-V3 achieving the highest accuracy.
+- The fine-tuned RoBERTa model closely followed, demonstrating effective distillation.
+
 
 ### Benefits
 - Comparable accuracy to foundation model
