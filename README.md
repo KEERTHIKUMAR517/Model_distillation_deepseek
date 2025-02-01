@@ -97,7 +97,7 @@ result = classifier(text)
 ### Accuracy Comparison
 The following chart illustrates the accuracy of various models on Twitter sentiment classification:
 
-![Model Accuracy Chart](path/to/your/chart.png)
+![Model Accuracy Chart](chart.png)
 
 - **DeepSeek-V3 671B**: 69.03%
 - **Fine-Tuned RoBERTa**: 68.59%
